@@ -1,0 +1,1432 @@
+/*css reset*/
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+
+.hides{
+    z-index: 1000;
+}
+#myModal .modal-dialog{
+    height: 300px!important;
+    margin-top: 100px!important;
+}
+#myModal .modal-header{
+    background: #eee;
+}
+#myModal .modal-body{
+    height: 200px!important;
+}
+#myModal .modal-footer{
+    border-top: none!important;
+}
+
+.my-form-group{
+    height: 120px!important;
+}
+
+
+/*reset css*/
+
+/*navbar*/
+.navbar-title{
+    height: 60px;
+    line-height: 30px;
+}
+.basic-table {
+    font-weight: normal;
+    background: #fff;
+}
+
+.table-title {
+    padding: 10px;
+    background: #fff;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    margin-top: 15px;
+}
+
+/*commom item*/
+.cl-5 {
+    width: 19.9999% !important;
+}
+
+.row-tip {
+    border-left: 3px solid #298ED6;
+    padding-left: 10px;
+}
+.row-item-title{
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+.row-item-pie {
+    padding-top: 0;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+
+.mid-top div{
+    width: 400px;
+}
+.mid-top p{
+    text-align: right;
+    width: 240px;
+}
+.mid-top span{
+    float: right;
+    width: 150px;
+    text-align: left;
+    margin-top: -30px;
+}
+
+.mid-right{
+    width: 270px!important;
+}
+
+
+.item-title, .item-statistic {
+    text-align: center;
+}
+
+.item-title {
+    height: 50px;
+    line-height: 50px;
+}
+
+.item-statistic {
+    height: 80px;
+    line-height: 80px;
+    background: #F5F5F7;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.line {
+    position: fixed;
+    right: 295px;
+    width: 2px;
+    height: 809px;
+    background: #ddd;
+    top: 87px;
+}
+
+@media (max-width: 1600px) {
+    .line {
+        display: none;
+    }
+}
+
+/*common css*/
+.center {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .bor-l-0 {
+        border-left: none;
+    }
+
+    .bor-r-0 {
+        border-right: none;
+    }
+
+    .with-item {
+        margin-left: -30px;
+    }
+
+    .with-item1 {
+        margin-left: -15px;
+        border-left: none;
+    }
+}
+
+
+/*salary*/
+.area-salary {
+    height: 210px;
+}
+
+.area-salary-item {
+    width: 49%;
+    padding: 11px 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.salary-index {
+    display: inline-block;
+    width: 20px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.salary-zoom {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.salary-num {
+
+}
+
+.pie-chart {
+    width: 190px;
+    height: 190px;
+}
+
+.pie-chart-1 {
+    height: 190px;
+}
+
+.pie-title {
+    position: absolute;
+    top: 22px;
+    font-weight: bold;
+}
+
+.pie-right {
+
+}
+
+.pie-item {
+    height: 30px;
+    line-height: 30px;
+    /*width: 250px;*/
+}
+
+.pie-item .square {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #ccc;
+}
+
+.pie-item > .type {
+    display: inline-block;
+    /*width: 200px;*/
+}
+
+.pie-item > .num {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.pie-item-worktype {
+    width: 50%;
+    display: inline-block;
+}
+
+.pie-chart {
+    height: 250px;
+}
+
+/*salary*/
+
+.h-300 {
+    min-height: 300px;
+}
+
+.pad-t-30 {
+    padding-top: 30px;
+}
+
+.pad-lr-15 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.mar-t-0 {
+    margin-top: 0px;
+}
+.mar-l-15{
+    margin-left: 15px;
+}
+
+.bor-1 {
+    border: 1px solid #ddd;
+}
+
+/*table*/
+.table-all {
+    position: relative;
+    margin-top: 15px;
+}
+
+.table-search {
+    background: #fff;
+    overflow: hidden;
+    padding: 15px 10px;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    text-align: left;
+}
+
+/*通用table搜索条件样式*/
+.table-search-item input{
+    width: 340px;
+    height: 30px;
+    border-color: #b3b3b3;
+    color: #B3B3B3;
+    margin-left: 44px;
+    display: inline-block;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.table-search-item .input-small{
+    width: 200px;
+}
+.table-search-item button,.basic-button{
+    border-radius: 2px;
+    width: 100px;
+    height: 30px;
+    line-height: 16px;
+    background: #0071bc;
+    margin-left: 44px;
+}
+.table-search-item button:active{
+    background: #00558d;
+}
+.basic-selelct{
+    padding: 0;
+    padding-left: 12px;
+    border-radius: 2px;
+    height: 30px;
+}
+.basic-selelct1{
+    display: inline-block;
+    width: 180px;
+    margin-left: 44px;
+    border-color: #b3b3b3;
+}
+.table-page {
+    line-height: 15px;
+    text-align: center;
+    display: inline-block;
+    background: #e9e9f4;
+    padding: 5px 10px;
+}
+
+.search-input {
+    width: 200px;
+    height: 30px;
+    float: right;
+}
+
+.search-button {
+    float: right;
+    height: 30px;
+    display: inline-block;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: 10px;
+    color: #fff;
+    border: none;
+    background: linear-gradient(left, #1EDAFF 25%, #2297FF 100%);
+    background: -o-linear-gradient(left, #1EDAFF 25%, #2297FF 100%);
+    background: -ms-linear-gradient(left, #1EDAFF 25%, #2297FF 100%);
+    background: -moz-linear-gradient(left, #1EDAFF 25%, #2297FF 100%);
+    background: -webkit-linear-gradient(left, #1EDAFF 25%, #2297FF 100%);
+
+}
+
+.search-button:hover {
+    color: #fff;
+}
+
+.search-button:active {
+    background: rgb(26, 138, 182);
+}
+
+/*detail*/
+.company-name {
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.detail-tip {
+    margin: 10px;
+}
+
+.detail-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    background: #fff;
+}
+
+.detail-num {
+    border: 1px solid #ddd;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#companyDetailChange, #projectDetailChange {
+    height: 200px;
+}
+
+.company-list {
+    height: 300px;
+    padding: 10px;
+}
+
+.company-list-item {
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.company-list-item > span:first-child {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.company-list-item > a {
+    float: right
+}
+
+/*login*/
+.login {
+    position: relative;
+    padding: 0;
+}
+
+.login-img {
+    width: 100%;
+    min-height: 1000px;
+}
+
+.login-content {
+    position: absolute;
+    width: 400px;
+    height: 460px;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    margin-left: -185px;
+    margin-top: -228px;
+}
+
+.login-title {
+    height: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 20px;
+    color: #19A8D6;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+}
+
+.login-form {
+    margin: 0 15px;
+    padding: 0px 30px;
+    margin-top: 70px;
+}
+
+.login-form .log-item {
+    height: 45px;
+    margin: 30px 0;
+    border-radius: 0;
+}
+
+.login-form .log-checkbox {
+    margin: 0;
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.login-form .log-btn {
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 0;
+    font-size: 19px;
+}
+
+.login-out {
+    position: absolute;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.login-out-svg {
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+.login-out-text {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: text-bottom;
+    margin-left: 5px;
+    margin-right: 30px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .login-out {
+        display: none;
+    }
+}
+
+.errorput {
+    border-color: #f00;
+    box-shadow: 0 0 5px #aa0b0b;
+}
+
+/*login*/
+
+.clearpading {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row-item {
+    border: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    padding-bottom: 10px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.project-row-item {
+    padding-top: 15px;
+    height: 200px;
+    overflow: auto;
+    margin-bottom: 15px;
+}
+.project-row-item > p {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.project-row-item-tip {
+    height: 120px;
+    line-height: 120px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #0071BB;
+}
+
+@media (max-width: 1800px) {
+    .line-row {
+        width: 100%;
+    }
+}
+
+.index-map {
+    width: 100%;
+    height: 800px;
+    margin-bottom: 10px;
+}
+
+/*project_position*/
+.change-type{
+    position: absolute;
+    right: 2px;
+    top: 10px;
+}
+.change-type1{
+    top: -15px;
+}
+.change-type>button{
+    width: 110px;
+    height: 40px;
+    border-radius: 2px;
+    background: #0071bc;
+}
+.change-type>button:active{
+    background: 00558d;
+}
+.project-choose-container {
+    padding: 10px;
+    background: #fff;
+}
+.progress-content{
+    margin-top: 25px;
+}
+.progress-content>p{
+    overflow: hidden;
+}
+.progress-content>p>span:first-child{
+    float: left;
+}
+.progress-content>p>span:last-child {
+    float: right;
+    text-align: left;
+    width: 80px;
+}
+.w-100 {
+    width: 100%;
+}
+
+.project-result {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.project-result-list {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    position: relative;
+    padding-right: 50px;
+}
+
+.p-list-detail {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    width: 50px;
+    text-align: center;
+    background: #337ab7;
+    color: #fff;
+    height: 100%;
+}
+
+.p-list-detail > a {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 40px;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+.project-infoWindow {
+    margin: 0;
+    width: 635px;
+}
+
+.info-box {
+    border: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.project-infoWindow > .col-sm-3 {
+    padding-left: 0px;
+}
+
+.p-info-btn {
+    width: 144px;
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+.p-list-name {
+    word-break: break-all;
+}
+
+/*project_position*/
+
+/*area_select*/
+.area-container {
+    border: 1px solid #ddd;
+    min-height: 490px;
+    margin-top: 10px;
+    background: #fff;
+}
+
+.area-box {
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    padding-left: 0;
+}
+
+.mar-tb-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.area-container .nav-tabs > li > a {
+    margin-right: 0;
+    border-radius: 0;
+}
+
+.area-container .nav-tabs > li.active > a {
+    border-radius: 0;
+    border: 0;
+    background: #00C2DE;
+    height: 41px;
+    color: #fff;
+}
+
+.area-container > .tab-content {
+    padding: 15px;
+}
+
+.tab-form {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+/*area_select*/
+
+/*project-detail*/
+.project-info-item {
+    min-width: 120px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.p-detail-data {
+    height: 200px;
+    border: 1px solid #ddd;
+}
+
+.p-detail-data > div {
+    padding: 15px;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.p-detail-data > div:first-child {
+    height: 100px;
+    font-weight: bold;
+}
+
+.p-detail-data:last-child {
+    border-bottom: 0;
+}
+
+.p-detail-money {
+    position: absolute;
+    right: 30px;
+}
+
+.realname-manage {
+    width: 112px;
+    display: inline-block;
+    text-align: left;
+}
+
+.salary-line:after {
+    content: '';
+    display: inline-block;
+    width: 150px;
+    height: 1px;
+    background: #ddd;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.projectModal-line {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.projectModal-line:after {
+    content: '';
+    display: inline-block;
+    width: 250px;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.salary-line-1 {
+    position: absolute;
+    width: 1px;
+    height: 60px;
+    background: #ddd;
+    left: 50%;
+    top: 50%;
+    margin-top: -30px;
+}
+
+#projectModal,#projectProgress {
+    margin-top: 100px;
+}
+#projectProgress .modal-dialog{
+    width: 800px;
+}
+#projectModal .modal-content {
+    width: 700px;
+}
+
+#projectModal .col-sm-6:first-child {
+    padding-left: 50px;
+}
+
+#projectModal .col-sm-6 p {
+    overflow: hidden;
+}
+
+#projectModal .col-sm-6 p span:first-child {
+    display: block;
+    width: 100px;
+    float: left;
+}
+
+#projectModal .col-sm-6 p span:last-child {
+    float: left;
+    display: block;
+    width: 180px;
+}
+
+.project-file-list {
+    height: 274px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    overflow: auto;
+}
+
+.project-file-list > p {
+    padding: 8px;
+    margin-bottom: 0;
+    padding-left: 12px;
+    position: relative;
+}
+
+.project-file-list > p:nth-child(odd) {
+    background: #F2F2F2;
+}
+
+.project-file-list > p:nth-child(even) {
+    background: #fff;
+}
+
+.project-file-list > p > span:first-child {
+    margin-right: 285px;
+}
+.project-file-list > p > span:last-child {
+    position: absolute;
+    right: 28px;
+}
+
+.project-exam {
+    height: 150px;
+    padding-top: 15px;
+}
+
+.project-exam > .project-row-item-tip {
+    height: 80px;
+    line-height: 80px;
+}
+
+/*project-detail*/
+
+.url-tip {
+    color: #b3b3b3;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/*search form*/
+.search-form1 {
+    background: #fff;
+    padding: 40px;
+    text-align: center;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+}
+
+.search-input1 {
+    width: 500px;
+    display: inline-block;
+    height: 40px;
+}
+
+.search-btn1 {
+    border-radius: 3px;
+    height: 38px;
+    width: 80px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.list-item {
+    height: 35px;
+}
+
+.list-item-sel {
+    width: 45%;
+}
+
+.list-item-sel1 {
+    width: 180px;
+}
+
+.list-search-input {
+    /*width: 200px;*/
+    /*display: inline-block;*/
+}
+
+.list-search-span {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+}
+
+/*search form*/
+
+.item-block {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 15px 0;
+    padding: 15px;
+    padding-top: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.item-block > .title {
+    height: 30px;
+    padding-top: 10px;
+}
+
+.item-block .item-block-link, .link {
+    position: absolute;
+    right: 4px;
+    top: 10px;
+    color: #00c4e2;
+    border: 1px solid #00c4e2;
+    border-radius: 13px;
+    padding: 0px 15px;
+}
+
+.link1 {
+    cursor: pointer;
+    right: 30px;
+    top: 30px;
+}
+
+.link2 {
+    cursor: pointer;
+    right: 25px;
+}
+
+.link3 {
+    top: 15px;
+    right: 15px;
+}
+
+.link4 {
+    top: 25px;
+    right: 30px;
+}
+.link-special{
+    right: 8px;
+    padding: 0 10px;
+}
+.item-block-one {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.item-block-one1 {
+
+}
+
+.rank-yes {
+    border: 3px solid green;
+    color: green;
+    padding: 3px;
+    border-radius: 50%;
+    display: inline;
+    vertical-align: middle;
+}
+
+.rank-no {
+    border: 3px solid #ddd;
+    color: #ddd;
+    padding: 3px;
+    border-radius: 50%;
+    display: inline;
+    vertical-align: middle;
+}
+
+.square {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background: #CAA2AB;
+}
+
+.square-color1 {
+    background: #4E63B7;
+}
+
+.square-color2 {
+    background: #B3B3B3;
+}
+
+.square-color3 {
+    background: #02C0E0;
+}
+
+/*信访查询*/
+.query-form > p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.query-form > p > span {
+    display: inline-block;
+    width: 70px;
+}
+
+.query-form > p > input {
+    width: 250px;
+}
+
+.query-form .query-code {
+    width: 135px;
+}
+
+.query-form .query-img {
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.query-btn {
+    width: 100px;
+    margin-left: 74px;
+    margin-top: 20px;
+}
+
+/*信访查询*/
+
+/*专项检查*/
+.check-form .check-input {
+    width: 111px;
+}
+
+.conclusion{
+    position: relative;
+    padding-left: 100px;
+    background: #ddd;
+}
+.conclusion>.conclusion-title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 120px;
+    padding: 5px;
+    padding-top: 45px;
+    background: #ddd;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.conclusion>textarea{
+    height: 120px;
+    border-radius: 0;
+    resize: none;
+}
+.conclusion-edit>button{
+    width: 110px;
+    border-radius: 0;
+    margin-right: 20px;
+}
+/*专项检查*/
+
+/*工程文件*/
+.project-file {
+    background: #fff;
+    height: 800px;
+    border: 1px solid #ddd;
+}
+
+.project-file-title {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.file-item {
+    display: block;
+    padding: 15px 10px;
+    text-align: center;
+    float: left;
+    width: 150px;
+    height: 108px;
+}
+.file-item p {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.file-detail-l, .file-detail-r {
+    border: 1px solid #ddd;
+    height: 700px;
+}
+
+.file-catalog {
+    padding: 10px;
+    background: #ccc;
+}
+
+.file-catalog-content {
+    height: 658px;
+    overflow: auto;
+}
+
+.file-catalog-item {
+    display: block;
+    border-bottom: 1px solid #ddd;
+    color: #000;
+    padding: 8px;
+}
+
+.file-preview {
+    margin-right: 10px;
+}
+
+.file-detail-toolbar {
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    overflow: hidden;
+    background: #fff;
+    padding: 8px 0;
+    margin-top: 15px;
+}
+
+.file-path {
+    padding: 6px;
+    border: 1px solid #ddd;
+}
+
+.file-search-img {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+    width: 25px;
+}
+
+/*工程文件*/
+
+/*warning*/
+.warning-item{
+    height: 300px;
+    padding-top: 15px;
+    overflow: auto;
+}
+.warning-r-item{
+    position: absolute;
+    top: 35px;
+    right: 30px;
+}
+#warnChart{
+    width: 100%;
+    height: 280px;
+    margin: 0 auto;
+}
+.warn-rank{
+    padding: 25px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: flex-start;
+}
+.warn-rank:last-child{
+    border-bottom: 0;
+}
+.warn-rank>span:first-child{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: #009245;
+    color: #fff;
+    margin-right: 15px;
+}
+.warn-rank > a {
+    width: 90%;
+}
+.warn-index-item{
+    float: left;
+    width: 16%;
+}
+/*warning*/
+
+/*常用样式*/
+.relative {
+    position: relative;
+}
+
+.fff {
+    background: #fff;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.green1 {
+    color: #009245;
+}
+
+.level {
+    display: inline-block;
+    padding: 2px 10px;
+    color: #fff;
+}
+
+.level-0 {
+    background: gray;
+}
+
+.level-1 {
+    background: #FE0000;
+}
+
+.level-2 {
+    background: #F09B24;
+}
+
+.level-3 {
+    background: #F2EE1B;
+}
+
+.level-4 {
+    background: #3762FE;
+}
+
+.level-0-font {
+    color: gray;
+}
+
+.level-1-font {
+    color: #FE0000;
+}
+
+.level-2-font {
+    color: #F09B24;
+}
+
+.level-3-font {
+    color: #F2EE1B;
+}
+
+.level-4-font {
+    color: #3762FE;
+}
+
+.normal {
+    font-weight: normal;
+}
+.font-size-10{
+    font-size: 10px;
+}
+.font-size-35 {
+    font-size: 35px;
+}
+.h-40{
+    height: 40px;
+}
+.bor-l-1 {
+    border-right: 1px solid #ddd;
+}
+
+.bor-b-1 {
+    border-bottom: 1px solid #ddd;
+}
+
+.inline-block {
+    display: inline-block;
+}
+.pad-l-0 {
+    padding-left: 0;
+}
+
+.pad-r-0 {
+    padding-right: 0;
+}
+
+.mar-r-15 {
+    margin-right: 15px;
+}
+
+.mar-r-10 {
+    margin-right: 10px;
+}
+
+.mar-b-10 {
+    margin-bottom: 10px;
+}
+.mar-b-15 {
+    margin-bottom: 15px;
+}
+.mar-t-50 {
+    margin-top: 50px;
+}
+
+.mar-t-15 {
+    margin-top: 15px;
+}
+
+.pad-l-0 {
+    padding-left: 0;
+}
+
+.pad-lr-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.pad-b-35 {
+    padding-bottom: 35px;
+}
+
+.pad-samll {
+    padding: 0;
+    padding-right: 15px;
+}
+
+.no-radius {
+    border-radius: 0;
+}
+.pad-lr-0-btn{
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+}
+.scroll-bar::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+
+.scroll-bar::-webkit-scrollbar-track {
+    background: #ece4ea;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+    background: #B2B2B2;
+    border-radius: 5px;
+}
+
+.scroll-bar::-webkit-scrollbar-corner {
+    background: #82AFFF;
+}
+
+.scroll-bar::-webkit-scrollbar-resizer {
+    background: #ece4ea;
+}
+.span-left{
+    display: inline-block;
+    width: 100px;
+}
+
+/*常用样式*/
+
+/*bootstrap table css reset*/
+#table th, #table td, .table th, .table td {
+    font-weight: normal;
+    line-height: 28px;
+}
+
+table td, table th {
+    text-align: center;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom-width: 0px;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: none;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*bootstrap table css reset*/
+
+/*bootstrap pagination分页*/
+.pagination .prev{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.limt-width-text {
+    display: inline-block;
+    vertical-align: text-top;
+    line-height: 18px;
+}
+
+.project-info {
+    text-align: center;
+    padding: 10px 0;
+    margin: 15px 0;
+}
+.project-info-box + .project-info-box{
+    border-left: 1px solid gray;
+}
+.attendance-box {
+    position: relative;
+    height:200px;
+    margin-right: 15px;
+}
+.attendance-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.table-search-item .attendance-ipt {
+    width: 220px !important;
+    margin-left: 15px !important;
+}

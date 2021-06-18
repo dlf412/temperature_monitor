@@ -1,0 +1,179 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>防疫体温监测平台</title>
+    <link rel="icon" href="">
+
+    {#    <link rel="stylesheet" href="{% static 'lib/css/bootstrap.css' %}">#}
+    <link rel="stylesheet" href="/static/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/lib/css/bootstrap-datetimepicker.css">
+
+    <link rel="stylesheet" href="/static/css/default.css">
+    <link rel="stylesheet" href="{% static 'css/common.css' %}">
+    <link rel="stylesheet" href="/static/lib/dcalendar/dcalendar.picker.css">
+{#    <link rel="stylesheet" href="/static/lib/css/bootstrap.min.css.map">#}
+
+
+    <!--[if lt IE 9]>
+      <script src="js/bootstrap/html5shiv.min.js"></script>
+      <script src="js/bootstrap/respond.min.js"></script>
+    <![endif]-->
+    {% block head_js %}
+    {% endblock %}
+</head>
+<body>
+
+<!--顶部 nav-->
+<nav class="navbar navbar-fixed-top nav-bg">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <img class="logo" src="{% static 'img/logo.png' %}">
+            <a class="navbar-brand navbar-title" id="titleName">防疫体温监测平台</a>
+            <button type="button" class="navbar-toggle" data-target="sidebar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+        <div class="login-out pull-right" style="line-height: 60px;right: 35px;">
+            {#            <embed class="login-out-svg" src="{% static 'img/loginout.svg' %}"/>#}
+            <span class="glyphicon glyphicon-log-out" style="text-decoration: none"><a href="{% url 'logout' %}"
+                                                                                       style="margin-left: 5px">退出登录</a></span>
+        </div>
+
+    </div>
+</nav>
+<!--顶部 nav-->
+
+
+
+{% block sidebar %}
+    <!--新左侧导航栏-->
+    <!--
+<img src="{% static 'img/2.png' %}">
+{#<a href="{% url 'project_list' %}" id="project">#}
+-->
+
+
+
+    <div class="sidebar scroll-bar trans">
+        <ul class="list-unstyled">
+{#            <li>#}
+{#                <a href="{% url 'real_time_warning' %}" id="real_time_warning">#}
+{#                    <img src="{% static 'img/s-icon1.png' %}">#}
+{#                    <span>实时预警</span>#}
+{#                </a>#}
+{#            </li>#}
+
+{#            <li>#}
+{#                <a href="{% url 'project_list' %}" id="project">#}
+{#                    <img src="{% static 'img/s-icon3.png' %}">#}
+{#                    <span>工程管理</span>#}
+{#                </a>#}
+{#                <!--#}
+{#            <div class="sub-menu trans">#}
+{#                <a href="{% url 'project_list' %}" id="project">工程列表</a>#}
+{#                <a href="{% url 'project_position' %}" id="project_position">位置分布</a>#}
+{#            </div>#}
+{#            -->#}
+{#            </li>#}
+
+{#            <li>#}
+{#                <a href="{% url 'company_list' %}" id="company">#}
+{#                    <img src="{% static 'img/s-icon2.png' %}">#}
+{#                    <span>企业管理</span>#}
+{#                </a>#}
+{#            </li>#}
+
+            <!--
+{#        <li>#}
+{#            <a href="{% url 'project_list_file' %}">#}
+{#                <img src="{% static 'img/s-icon4.png' %}">#}
+{#                <span>台账</span>#}
+{#            </a>#}
+{#        </li>#}
+        -->
+
+{#            <li>#}
+{#                <a href="{% url 'worker_query' %}" id="worker_query">#}
+{#                    <img src="{% static 'img/s-icon5.png' %}">#}
+{#                    <span>信访查询</span>#}
+{#                </a>#}
+{#            </li>#}
+
+{#            <li>#}
+{#                <a href="{% url 'apply_list' %}">#}
+{#                    <img src="{% static 'img/s-icon6.png' %}">#}
+{#                    <span>审核管理</span>#}
+{#                </a>#}
+{#            </li>#}
+            <!--
+{#        <li>#}
+{#            <a href="{% url 'my_indicator' %}">#}
+{#                <img src="{% static 'img/s-icon6.png' %}">#}
+{#                <span>我的指标</span>#}
+{#            </a>#}
+{#        </li>#}
+        -->
+        </ul>
+    </div>
+
+{% endblock %}
+
+<!--左侧导航栏-->
+
+<!--右侧日历-->
+<div class="calendar"></div>
+<div class="line"></div>
+
+<!--content-->
+{% block content %}
+
+{% endblock %}
+<!--content-->
+
+
+<!--通用依赖js文件-->
+
+<script src="/static/lib/js/jquery-2.2.4.min.js"></script>
+<script src="/static/js/default.js"></script>
+<script src="/static/lib/js/bootstrap.min.js"></script>
+<script src="/static/lib/js/bootstrap-datetimepicker.js"></script>
+
+
+<script src="/static/lib/dcalendar/dcalendar.picker.js"></script>
+{#<script src="{% static 'lib/js/echarts.min.js' %}"></script>#}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts.min.js"></script>
+<script src="{% static 'lib/js/city.js' %}"></script>
+{#<script src="{% static 'lib/js/bootstrap-table.min.js' %}"></script>#}
+{#<script src="{% static 'lib/js/bootstrap-table-locale-all.min.js' %}"></script>#}
+
+
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script src="https://webapi.amap.com/maps?v=1.4.3&key=10e42d56b62ea1ea01368eacf1d82053"></script>
+
+
+<!--本页面依赖js文件-->
+
+<script src="{% static 'js/common.js' %}"></script>
+
+{% block extra_js %}
+{% endblock %}
+</body>
+</html>
+
+<script>
+
+let title = document.getElementById('titleName').innerHTML;
+let name = sessionStorage.getItem('govName');
+if (name !== null && name !== "") {document.getElementById('titleName').innerHTML = name + title;}
+</script>
+<script>
+
+</script>

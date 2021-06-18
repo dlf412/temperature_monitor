@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+{% load static %}
+{#{% load extra_filter %}#}
+{% block content %}
+    <div class="container-fluid all">
+        <div class="maincontent">
+            <div id="map" class="index-map">
+
+            </div>
+            <div class="row-tip">
+                实时数据
+            </div>
+            <div class="row">
+                <div class="col-sm-2 cl-5">
+                    <div class="row-item">
+                        <div class="item-title">入驻企业 （）</div>
+                        <div class="item-statistic"></div>
+                    </div>
+                </div>
+                <div class="col-sm-2 cl-5">
+                    <div class="row-item">
+                        <div class="item-title">入驻项目</div>
+                        <div class="item-statistic"></div>
+                    </div>
+                </div>
+                <div class="col-sm-2 cl-5">
+                    <div class="row-item">
+                        <div class="item-title">签约工人 （总数）</div>
+                        <div class="item-statistic"></div>
+                    </div>
+                </div>
+                <div class="col-sm-2 cl-5">
+                    <div class="row-item">
+                        <div class="item-title">在场工人数</div>
+                        <div class="item-statistic"></div>
+                    </div>
+                </div>
+                <div class="col-sm-2 cl-5">
+                    <div class="row-item">
+                        <div class="item-title">累计发放薪资</div>
+                        <div class="item-statistic"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row-tip">
+                实时薪资信息
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row-item">
+                        <div id="salaryChart" style="height:260px;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--
+            <div class="row-tip">
+                实时工人信息
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="row-item">
+                        <div class="item-title">签约工人 （总数）</div>
+                        <div class="item-statistic">1</div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row-item bor-r-0">
+                        <div class="item-title">实名认证人数 （总数）</div>
+                        <div class="item-statistic">2</div>
+                    </div>
+                </div>
+                <div class="col-sm-2 with-item">
+                    <div class="row-item-pie bor-l-0">
+                        <div class="item-title">实名认证比例</div>
+                        <div id="realPeople" style="height:80px;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row-tip">
+                实时薪资信息
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="row-item">
+                        <div class="item-title">平台累计发放薪资</div>
+                        <div class="item-statistic">3元</div>
+                        <div class="item-title">人均平均薪资</div>
+                        <div class="item-statistic">4元</div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row-item">
+                        <div class="item-title">本月发放薪资</div>
+                        <div class="item-statistic">5元</div>
+                        <div class="item-title">本月人均薪资</div>
+                        <div class="item-statistic">6元</div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row-item">
+                        <div id="salaryChart" style="height:260px;"></div>
+                    </div>
+                </div>
+            </div>
+            -->
+
+        </div>
+    </div>
+{% endblock %}
+

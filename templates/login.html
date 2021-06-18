@@ -1,0 +1,75 @@
+{#{% load compress %}#}
+{% load  static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>防疫体温监测系统</title>
+    <link rel="icon" href="">
+    {#    {% compress css %}#}
+
+    <link rel="stylesheet" href="/static/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/default.css">
+    <link rel="stylesheet" href="/static/css/common.css">
+    <link rel="stylesheet" href="static/lib/dcalendar/dcalendar.picker.css">
+    {#    {% endcompress %}#}
+    <!--[if lt IE 9]>
+      <script src="js/bootstrap/html5shiv.min.js"></script>
+      <script src="js/bootstrap/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!--顶部 nav-->
+<nav class="navbar navbar-fixed-top nav-bg">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand">让我们携手战胜疫情</a>
+        </div>
+    </div>
+</nav>
+<!--顶部 nav-->
+
+<!--content-->
+<div class="container-fluid login">
+    <img class="login-img" src="{% static 'img/login.png' %}" alt="">
+    <div class="login-content">
+        <div class="login-title">欢迎使用防疫体温监测平台</div>
+        <form class="login-form" action="{% url 'login' %}" method="post">
+        {% csrf_token %}
+            <input type="hidden" name="next" value="{{ redirect_to }}">
+            <input type="text" class="form-control log-item {% if form.errors.username %} errorput {% endif %} "
+                   placeholder="账号" name="username"
+                   value="{% if form.username.value %}{{ form.username.value }}{% endif %}">
+
+
+            <input type="password" class="form-control log-item  {% if form.errors.password %} errorput {% endif %}"
+                   placeholder="密码" name="password">
+            {#            <input type="checkbox" class="log-checkbox"><span>记住密码</span>#}
+            <div>
+                {% for key,error in form.errors.items %}
+                    {{ error }}
+                {% endfor %}
+                {% if msg %}
+                    <ul class="errorlist">
+                        <li>{{ msg }} </li>
+                    </ul>
+                {% endif %}
+
+            </div>
+            <button type="submit" class="form-control btn btn-primary log-btn">登录</button>
+        <h4 style="text-align: center;margin-top:30px;">联系厂家请咨询 XXXX-XXXXXXXX</h4>
+        </form>
+    </div>
+
+</div>
+<!--content-->
+
+
+</body>
+
+</html>
